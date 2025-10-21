@@ -1,0 +1,505 @@
+{
+    "usuarios": [
+        {
+            "id": "USR1A2B3",
+            "nombre": "Carlos Pérez",
+            "contraseña": "pass1234",
+            "correo": "carlos.perez@example.com",
+            "rol": "admin"
+        },
+        {
+            "id": "USR4C5D6",
+            "nombre": "Ana Gómez",
+            "contraseña": "ana2024",
+            "correo": "ana.gomez@example.com",
+            "rol": "candidato"
+        },
+        {
+            "id": "USR7E8F9",
+            "nombre": "Luis Torres",
+            "contraseña": "luispass",
+            "correo": "luis.torres@example.com",
+            "rol": "candidato"
+        },
+        {
+            "id": "USR0G1H2",
+            "nombre": "María López",
+            "contraseña": "marialo123",
+            "correo": "maria.lopez@example.com",
+            "rol": "candidato"
+        },
+        {
+            "id": "USR3J4K5",
+            "nombre": "Pedro Ruiz",
+            "contraseña": "pedro321",
+            "correo": "pedro.ruiz@example.com",
+            "rol": "candidato"
+        },
+        {
+            "id": "USR6L7M8",
+            "nombre": "Lucía Fernández",
+            "contraseña": "lucia5678",
+            "correo": "lucia.fernandez@example.com",
+            "rol": "candidato"
+        },
+        {
+            "id": "USR9N0P1",
+            "nombre": "Sofía Díaz",
+            "contraseña": "sofiapass",
+            "correo": "sofia.diaz@example.com",
+            "rol": "candidato"
+        },
+        {
+            "id": "USR2Q3R4",
+            "nombre": "Javier Morales",
+            "contraseña": "javimor",
+            "correo": "javier.morales@example.com",
+            "rol": "candidato"
+        },
+        {
+            "id": "USR5S6T7",
+            "nombre": "Andrea Castro",
+            "contraseña": "andreac2024",
+            "correo": "andrea.castro@example.com",
+            "rol": "candidato"
+        },
+        {
+            "id": "USR8U9V0",
+            "nombre": "Miguel Ángel",
+            "contraseña": "miguel123",
+            "correo": "miguel.angel@example.com",
+            "rol": "admin"
+        }
+    ],
+    "vacantes": [
+        {
+            "id": "VAC1A2B3",
+            "descripcion": "Desarrollo web frontend",
+            "salario": 18000,
+            "fecha_maxima_postulacion": "2025-12-30",
+            "fecha_publicacion": "2025-09-01",
+            "puesto": "Frontend Developer",
+            "requisitos": "HTML, CSS, JavaScript, React"
+        },
+        {
+            "id": "VAC2C3D4",
+            "descripcion": "Soporte técnico",
+            "salario": 12000,
+            "fecha_maxima_postulacion": "2025-11-15",
+            "fecha_publicacion": "2025-09-10",
+            "puesto": "Técnico en soporte",
+            "requisitos": "Conocimientos en hardware y redes"
+        },
+        {
+            "id": "VAC3E4F5",
+            "descripcion": "Analista de datos",
+            "salario": 22000,
+            "fecha_maxima_postulacion": "2025-12-10",
+            "fecha_publicacion": "2025-09-20",
+            "puesto": "Data Analyst",
+            "requisitos": "SQL, Python, Power BI"
+        },
+        {
+            "id": "VAC4G5H6",
+            "descripcion": "Diseñador gráfico",
+            "salario": 16000,
+            "fecha_maxima_postulacion": "2025-11-05",
+            "fecha_publicacion": "2025-08-28",
+            "puesto": "Graphic Designer",
+            "requisitos": "Illustrator, Photoshop, creatividad"
+        },
+        {
+            "id": "VAC5I6J7",
+            "descripcion": "Contador general",
+            "salario": 20000,
+            "fecha_maxima_postulacion": "2025-12-01",
+            "fecha_publicacion": "2025-09-12",
+            "puesto": "Contador",
+            "requisitos": "Lic. en contaduría, experiencia 2 años"
+        },
+        {
+            "id": "VAC6K7L8",
+            "descripcion": "Ejecutivo de ventas",
+            "salario": 15000,
+            "fecha_maxima_postulacion": "2025-11-20",
+            "fecha_publicacion": "2025-09-22",
+            "puesto": "Sales Executive",
+            "requisitos": "Habilidades de comunicación y negociación"
+        },
+        {
+            "id": "VAC7M8N9",
+            "descripcion": "Ingeniero de software",
+            "salario": 25000,
+            "fecha_maxima_postulacion": "2025-12-31",
+            "fecha_publicacion": "2025-09-05",
+            "puesto": "Software Engineer",
+            "requisitos": "Java, Spring Boot, Git"
+        },
+        {
+            "id": "VAC8O9P0",
+            "descripcion": "Administrador de redes",
+            "salario": 19000,
+            "fecha_maxima_postulacion": "2025-12-15",
+            "fecha_publicacion": "2025-09-18",
+            "puesto": "Network Admin",
+            "requisitos": "Cisco, Linux, Firewall"
+        },
+        {
+            "id": "VAC9Q0R1",
+            "descripcion": "Community manager",
+            "salario": 14000,
+            "fecha_maxima_postulacion": "2025-11-25",
+            "fecha_publicacion": "2025-09-30",
+            "puesto": "Community Manager",
+            "requisitos": "Redes sociales, diseño básico"
+        },
+        {
+            "id": "VAC0S1T2",
+            "descripcion": "Desarrollador backend",
+            "salario": 23000,
+            "fecha_maxima_postulacion": "2025-12-20",
+            "fecha_publicacion": "2025-09-10",
+            "puesto": "Backend Developer",
+            "requisitos": "Node.js, Express, MongoDB"
+        },
+        {
+            "id": "VAC1T2U3",
+            "descripcion": "Tester QA",
+            "salario": 17000,
+            "fecha_maxima_postulacion": "2025-11-18",
+            "fecha_publicacion": "2025-09-19",
+            "puesto": "QA Tester",
+            "requisitos": "Pruebas manuales y automatizadas"
+        },
+        {
+            "id": "VAC2U3V4",
+            "descripcion": "Recepcionista",
+            "salario": 11000,
+            "fecha_maxima_postulacion": "2025-11-30",
+            "fecha_publicacion": "2025-09-14",
+            "puesto": "Recepcionista",
+            "requisitos": "Atención al cliente, puntualidad"
+        },
+        {
+            "id": "VAC3V4W5",
+            "descripcion": "Marketing digital",
+            "salario": 18000,
+            "fecha_maxima_postulacion": "2025-12-25",
+            "fecha_publicacion": "2025-09-25",
+            "puesto": "Digital Marketer",
+            "requisitos": "SEO, Google Ads, Meta Ads"
+        },
+        {
+            "id": "VAC4W5X6",
+            "descripcion": "Ingeniero civil",
+            "salario": 26000,
+            "fecha_maxima_postulacion": "2025-12-10",
+            "fecha_publicacion": "2025-09-08",
+            "puesto": "Civil Engineer",
+            "requisitos": "AutoCAD, proyectos estructurales"
+        },
+        {
+            "id": "VAC5X6Y7",
+            "descripcion": "Desarrollador móvil",
+            "salario": 24000,
+            "fecha_maxima_postulacion": "2025-12-18",
+            "fecha_publicacion": "2025-09-06",
+            "puesto": "Mobile Developer",
+            "requisitos": "Flutter, Android, iOS"
+        },
+        {
+            "id": "VAC6Y7Z8",
+            "descripcion": "Redactor técnico",
+            "salario": 15000,
+            "fecha_maxima_postulacion": "2025-11-22",
+            "fecha_publicacion": "2025-09-16",
+            "puesto": "Technical Writer",
+            "requisitos": "Excelentes habilidades de redacción"
+        },
+        {
+            "id": "VAC7Z8A9",
+            "descripcion": "Asistente administrativo",
+            "salario": 13000,
+            "fecha_maxima_postulacion": "2025-11-28",
+            "fecha_publicacion": "2025-09-11",
+            "puesto": "Asistente",
+            "requisitos": "Organización, manejo de agenda"
+        },
+        {
+            "id": "VAC8A9B0",
+            "descripcion": "Recursos humanos",
+            "salario": 20000,
+            "fecha_maxima_postulacion": "2025-12-12",
+            "fecha_publicacion": "2025-09-07",
+            "puesto": "HR Assistant",
+            "requisitos": "Psicología, entrevistas laborales"
+        },
+        {
+            "id": "VAC9B0C1",
+            "descripcion": "Desarrollador fullstack",
+            "salario": 26000,
+            "fecha_maxima_postulacion": "2025-12-29",
+            "fecha_publicacion": "2025-09-03",
+            "puesto": "Fullstack Developer",
+            "requisitos": "React, Node.js, SQL"
+        },
+        {
+            "id": "VAC0C1D2",
+            "descripcion": "Project Manager",
+            "salario": 28000,
+            "fecha_maxima_postulacion": "2025-12-08",
+            "fecha_publicacion": "2025-09-09",
+            "puesto": "Project Manager",
+            "requisitos": "Gestión de proyectos, Scrum"
+        }
+    ],
+    "candidatos": [
+        {
+            "id_usuario": "USR4C5D6",
+            "direccion": "Av. Central 123",
+            "telefono": "5543217890",
+            "experiencia": "2 años en desarrollo web",
+            "edad": 25
+        },
+        {
+            "id_usuario": "USR7E8F9",
+            "direccion": "Calle Luna 45",
+            "telefono": "5545678901",
+            "experiencia": "1 año en soporte técnico",
+            "edad": 24
+        },
+        {
+            "id_usuario": "USR0G1H2",
+            "direccion": "Av. Reforma 789",
+            "telefono": "5556789012",
+            "experiencia": "3 años en diseño",
+            "edad": 28
+        },
+        {
+            "id_usuario": "USR3J4K5",
+            "direccion": "Calle Sol 90",
+            "telefono": "5534567890",
+            "experiencia": "2 años en contabilidad",
+            "edad": 29
+        },
+        {
+            "id_usuario": "USR6L7M8",
+            "direccion": "Priv. Jardines 12",
+            "telefono": "5578901234",
+            "experiencia": "1 año en atención al cliente",
+            "edad": 23
+        },
+        {
+            "id_usuario": "USR9N0P1",
+            "direccion": "Calle Norte 11",
+            "telefono": "5512345678",
+            "experiencia": "3 años en diseño UX/UI",
+            "edad": 27
+        },
+        {
+            "id_usuario": "USR2Q3R4",
+            "direccion": "Col. Vista Hermosa 34",
+            "telefono": "5565432109",
+            "experiencia": "5 años en ventas",
+            "edad": 30
+        },
+        {
+            "id_usuario": "USR5S6T7",
+            "direccion": "Av. del Trabajo 89",
+            "telefono": "5598765432",
+            "experiencia": "2 años en marketing",
+            "edad": 26
+        },
+        {
+            "id_usuario": "USR8U9V0",
+            "direccion": "Calle 5 de Mayo 22",
+            "telefono": "5511122233",
+            "experiencia": "4 años en análisis de datos",
+            "edad": 32
+        },
+        {
+            "id_usuario": "USR7E8F9",
+            "direccion": "Camino Real 56",
+            "telefono": "5533344455",
+            "experiencia": "1 año en soporte técnico",
+            "edad": 24
+        },
+        {
+            "id_usuario": "USR0G1H2",
+            "direccion": "Calle Pino 77",
+            "telefono": "5522233344",
+            "experiencia": "3 años en diseño gráfico",
+            "edad": 28
+        },
+        {
+            "id_usuario": "USR3J4K5",
+            "direccion": "Calle Robles 99",
+            "telefono": "5545566677",
+            "experiencia": "2 años en contaduría",
+            "edad": 29
+        },
+        {
+            "id_usuario": "USR6L7M8",
+            "direccion": "Av. Hidalgo 10",
+            "telefono": "5566677788",
+            "experiencia": "3 años en atención al cliente",
+            "edad": 25
+        },
+        {
+            "id_usuario": "USR9N0P1",
+            "direccion": "Calle Olivo 101",
+            "telefono": "5511223344",
+            "experiencia": "3 años en diseño UX",
+            "edad": 27
+        },
+        {
+            "id_usuario": "USR5S6T7",
+            "direccion": "Av. Universidad 303",
+            "telefono": "5544332211",
+            "experiencia": "4 años en marketing",
+            "edad": 31
+        }
+    ],
+    "postulaciones": [
+        {
+            "id": "POS1A2B3",
+            "id_postulante": "USR4C5D6",
+            "id_vacante": "VAC1A2B3",
+            "estado": "inscrito",
+            "observaciones": "Cumple requisitos"
+        },
+        {
+            "id": "POS2C3D4",
+            "id_postulante": "USR7E8F9",
+            "id_vacante": "VAC2C3D4",
+            "estado": "descartado",
+            "observaciones": "Falta experiencia"
+        },
+        {
+            "id": "POS3E4F5",
+            "id_postulante": "USR0G1H2",
+            "id_vacante": "VAC3E4F5",
+            "estado": "inscrito",
+            "observaciones": "Buena presentación"
+        },
+        {
+            "id": "POS4G5H6",
+            "id_postulante": "USR3J4K5",
+            "id_vacante": "VAC4G5H6",
+            "estado": "contratado",
+            "observaciones": "Excelente perfil"
+        },
+        {
+            "id": "POS5I6J7",
+            "id_postulante": "USR6L7M8",
+            "id_vacante": "VAC5I6J7",
+            "estado": "inscrito",
+            "observaciones": "En revisión"
+        },
+        {
+            "id": "POS6K7L8",
+            "id_postulante": "USR9N0P1",
+            "id_vacante": "VAC6K7L8",
+            "estado": "descartado",
+            "observaciones": "Salario no compatible"
+        },
+        {
+            "id": "POS7M8N9",
+            "id_postulante": "USR2Q3R4",
+            "id_vacante": "VAC7M8N9",
+            "estado": "inscrito",
+            "observaciones": "Buena experiencia"
+        },
+        {
+            "id": "POS8O9P0",
+            "id_postulante": "USR5S6T7",
+            "id_vacante": "VAC8O9P0",
+            "estado": "contratado",
+            "observaciones": "Contratación inmediata"
+        },
+        {
+            "id": "POS9Q0R1",
+            "id_postulante": "USR8U9V0",
+            "id_vacante": "VAC9Q0R1",
+            "estado": "inscrito",
+            "observaciones": "Candidato sobresaliente"
+        },
+        {
+            "id": "POS0S1T2",
+            "id_postulante": "USR7E8F9",
+            "id_vacante": "VAC0S1T2",
+            "estado": "descartado",
+            "observaciones": "Incompleta documentación"
+        },
+        {
+            "id": "POS1T2U3",
+            "id_postulante": "USR0G1H2",
+            "id_vacante": "VAC1T2U3",
+            "estado": "inscrito",
+            "observaciones": "Pendiente de entrevista"
+        },
+        {
+            "id": "POS2U3V4",
+            "id_postulante": "USR3J4K5",
+            "id_vacante": "VAC2U3V4",
+            "estado": "contratado",
+            "observaciones": "Recomendado por RRHH"
+        },
+        {
+            "id": "POS3V4W5",
+            "id_postulante": "USR6L7M8",
+            "id_vacante": "VAC3V4W5",
+            "estado": "inscrito",
+            "observaciones": "Esperando respuesta"
+        },
+        {
+            "id": "POS4W5X6",
+            "id_postulante": "USR9N0P1",
+            "id_vacante": "VAC4W5X6",
+            "estado": "descartado",
+            "observaciones": "Falta título profesional"
+        },
+        {
+            "id": "POS5X6Y7",
+            "id_postulante": "USR2Q3R4",
+            "id_vacante": "VAC5X6Y7",
+            "estado": "inscrito",
+            "observaciones": "Cumple parcialmente requisitos"
+        },
+        {
+            "id": "POS6Y7Z8",
+            "id_postulante": "USR5S6T7",
+            "id_vacante": "VAC6Y7Z8",
+            "estado": "inscrito",
+            "observaciones": "Buena actitud"
+        },
+        {
+            "id": "POS7Z8A9",
+            "id_postulante": "USR8U9V0",
+            "id_vacante": "VAC7Z8A9",
+            "estado": "descartado",
+            "observaciones": "No disponible"
+        },
+        {
+            "id": "POS8A9B0",
+            "id_postulante": "USR7E8F9",
+            "id_vacante": "VAC8A9B0",
+            "estado": "contratado",
+            "observaciones": "Excelente entrevista"
+        },
+        {
+            "id": "POS9B0C1",
+            "id_postulante": "USR0G1H2",
+            "id_vacante": "VAC9B0C1",
+            "estado": "inscrito",
+            "observaciones": "En evaluación técnica"
+        },
+        {
+            "id": "POS0C1D2",
+            "id_postulante": "USR3J4K5",
+            "id_vacante": "VAC0C1D2",
+            "estado": "contratado",
+            "observaciones": "Seleccionado finalista"
+        }
+    ]
+}
