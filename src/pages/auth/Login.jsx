@@ -1,8 +1,23 @@
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import "./Login.css";
-import { Link } from "react-router-dom";
+import { alertaGeneral, alertaRedireccion } from "../../helpers/alertas";
+import { generarToken } from "../../helpers/funciones";
+
+console.log (generarToken())
 
 function Login() {
-  return (
+  const [usuario, setUsuario] = useState("");
+  const [contrasena, setContrasena] = useState("");
+  let redireccion = useNavigate();
+  function iniciarSesion(){
+      if (usuario == "admin" && contrasena == "1234"){
+        alertaRedireccion("Bienvenido", "success", "/dashboardd", redireccion)
+      }else {
+          alertaGeneral("Error", "Error de credenciales", "error");
+      }
+  }
+    return (
     <div className="login-container">
       <form className="w-100">
         <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
@@ -20,6 +35,7 @@ function Login() {
                   class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"
                   id="username"
                   type="text"
+                  onChange={(e)=> setUsuario(e.target.value)}
                 />
               </div>
               <div>
@@ -31,12 +47,14 @@ function Login() {
                   placeholder="••••••••"
                   id="password"
                   type="password"
+                  onChange={(e)=> setContrasena(e.target.value)}
                 />
               </div>
 
               <button
+                onClick={iniciarSesion}
                 class="w-full bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  focus:ring-blue-800 text-white"
-                type="submit"
+                type="button"
               >
                 Login
               </button>
